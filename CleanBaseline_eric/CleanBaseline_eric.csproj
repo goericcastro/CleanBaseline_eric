@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Platforms>AnyCPU;x64</Platforms>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.WindowsDesktop.App"></FrameworkReference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="accoremgd">
+	    <HintPath>D:\Programs Files\Autodesk\AutoCAD 2025\accoremgd.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="Acdbmgd">
+	    <HintPath>D:\Programs Files\Autodesk\AutoCAD 2025\acdbmgd.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	  <Reference Include="Acmgd">
+	    <HintPath>D:\Programs Files\Autodesk\AutoCAD 2025\acmgd.dll</HintPath>
+	    <Private>False</Private>
+	  </Reference>
+	</ItemGroup>
+</Project>
